@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Balancerator</string>
+    <string name="main_screen_header">Balancerator</string>
+    <string name="connect_button_text">Connect to Balancerator</string>
 </resources>

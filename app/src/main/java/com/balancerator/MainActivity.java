@@ -23,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showBTPicker(View view) {
         Toast.makeText(getApplicationContext(), "Clicked the button", Toast.LENGTH_SHORT).show();
+        Intent intent =new Intent(MainActivity.this, BluetoothPicker.class);
+        startActivity(intent);
     }
 }

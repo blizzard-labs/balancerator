@@ -2,4 +2,10 @@
     <string name="app_name">Balancerator</string>
     <string name="main_screen_header">Balancerator</string>
     <string name="connect_button_text">Connect to Balancerator</string>
+    <string name="insights_button_text">Trends and Insight</string>
+    <string name="emergency_button_text">Set Emergency Contact</string>
+    <string name="mission_label">Our Mission</string>
+    <string name="mission_text">Multitudes of disabilities and maladies cause people to lose balance, resulting in horrible consequences. The Balancerator, along with this app, has been made to propose an easy and reliable way to assist people to live their everyday life with less fear of falling.</string>
+    <string name="more_info_button_text">More Info</string>
+    <string name="disconnect_button_text">Disconnect</string>
 </resources>

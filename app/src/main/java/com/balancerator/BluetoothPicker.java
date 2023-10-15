@@ -77,13 +77,18 @@ public class BluetoothPicker extends AppCompatActivity {
 
         picker.setOnItemClickListener((adapterView, view, i, l) -> {
             Toast.makeText(getApplicationContext(), "Selected : " + list.get(i), Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(BluetoothPicker.this, MainPage.class );
+            intent.putExtra("btDevice", list.get(i));
+            startActivity(intent);
 
 
         });
 
         View btn = findViewById(R.id.btButton);
         btn.setOnClickListener((view) -> {
-            Toast.makeText(getApplicationContext(), "Selected : " , Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(BluetoothPicker.this, MainPage.class );
+            intent.putExtra("btDevice", "The one");
+            startActivity(intent);
         });
 
     }

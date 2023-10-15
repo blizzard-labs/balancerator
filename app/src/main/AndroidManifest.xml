@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Balancerator"
         tools:targetApi="31">
         <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
             android:name=".BluetoothPicker"
             android:exported="false" />
         <activity

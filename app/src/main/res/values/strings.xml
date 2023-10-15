@@ -8,4 +8,10 @@
     <string name="mission_text">Multitudes of disabilities and maladies cause people to lose balance, resulting in horrible consequences. The Balancerator, along with this app, has been made to propose an easy and reliable way to assist people to live their everyday life with less fear of falling.</string>
     <string name="more_info_button_text">More Info</string>
     <string name="disconnect_button_text">Disconnect</string>
+    <string name="trends_view_page_title">Trends</string>
+    <string name="trends_view_upload_button">Upload Data</string>
+    <string name="trends_view_falls_history_button">Falls in the past month</string>
+    <string name="trends_view_stability_button">Stability in the past month</string>
+    <string name="trends_view_falling_log_button">Falling log</string>
+    <string name="trends_view_return_button">Return</string>
 </resources>
